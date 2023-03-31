@@ -1,7 +1,7 @@
 # DockerFile
-FROM ubuntu:18.04
+FROM ubuntu
 
-RUN apt-get update && apt-get install -y python python-pip
+RUN apt-get update && apt-get install -y python3 python3-pip
 
 RUN pip install --upgrade pip
 
